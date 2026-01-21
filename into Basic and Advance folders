@@ -1,0 +1,199 @@
+[1mdiff --git a/Advance Pattern Qus/HollowRectang.java b/Advance Pattern Qus/HollowRectang.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..fd262fa[m
+[1m--- /dev/null[m
+[1m+++ b/Advance Pattern Qus/HollowRectang.java[m	
+[36m@@ -0,0 +1,22 @@[m
+[32m+[m[32mpublic class HollowRectang {[m
+[32m+[m
+[32m+[m[32m    public static void pattern(int row ,int col){[m
+[32m+[m[32m        for(int i = 1;i<=row;i++){[m
+[32m+[m[32m            for(int j=1;j<=col;j++){[m
+[32m+[m
+[32m+[m[32m                if (i==1 || i==row ||j==1 || j==col) {[m
+[32m+[m[32m                    System.out.print("*");[m
+[32m+[m[32m                }[m
+[32m+[m[32m                else{[m
+[32m+[m[32m                    System.out.print(" ");[m
+[32m+[m[32m                }[m
+[32m+[m[32m            }[m
+[32m+[m[32m            System.out.println();[m
+[32m+[m[32m        }[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[32m        pattern(4, 5);[m
+[32m+[m[32m    }[m
+[32m+[m[41m    [m
+[32m+[m[32m}[m
+[1mdiff --git a/Advance Pattern Qus/NumbersHalfPrya.java b/Advance Pattern Qus/NumbersHalfPrya.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c24cc74[m
+[1m--- /dev/null[m
+[1m+++ b/Advance Pattern Qus/NumbersHalfPrya.java[m	
+[36m@@ -0,0 +1,16 @@[m
+[32m+[m[32mpublic class NumbersHalfPrya {[m
+[32m+[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[41m        [m
+[32m+[m[32m        int n = 5;[m
+[32m+[m
+[32m+[m[32m        for(int i =1;i<=n;i++){[m
+[32m+[m[32m            for(int j =1;j<=n-i+1;j++){[m
+[32m+[m[32m                System.out.print(j+" ");[m
+[32m+[m[32m            }[m
+[32m+[m[32m            System.out.println();[m
+[32m+[m[32m        }[m
+[32m+[m
+[32m+[m[32m    }[m
+[32m+[m[41m    [m
+[32m+[m[32m}[m
+[1mdiff --git a/Advance Pattern Qus/RotatedHalfPyra.java b/Advance Pattern Qus/RotatedHalfPyra.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d633f73[m
+[1m--- /dev/null[m
+[1m+++ b/Advance Pattern Qus/RotatedHalfPyra.java[m	
+[36m@@ -0,0 +1,19 @@[m
+[32m+[m
+[32m+[m
+[32m+[m[32mpublic class RotatedHalfPyra {[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[32m        int n = 4;[m
+[32m+[m[32m        for(int i=1;i<=n;i++){[m
+[32m+[m[32m            for(int j=1;j<=n-i;j++){[m
+[32m+[m[32m                System.out.print(" ");[m
+[32m+[m[32m            }[m
+[32m+[m[32m            for(int k=1;k<=i;k++){[m
+[32m+[m
+[32m+[m[32m                System.out.print("*");[m
+[32m+[m[32m            }[m
+[32m+[m[32m            System.out.println();[m
+[32m+[m[32m        }[m
+[32m+[m[41m        [m
+[32m+[m
+[32m+[m[32m    }[m[41m   [m
+[32m+[m[32m}[m
+[1mdiff --git a/ButterflyPattern.java b/Basic/ButterflyPattern.java[m
+[1msimilarity index 100%[m
+[1mrename from ButterflyPattern.java[m
+[1mrename to Basic/ButterflyPattern.java[m
+[1mdiff --git a/CharacterPattern.java b/Basic/CharacterPattern.java[m
+[1msimilarity index 100%[m
+[1mrename from CharacterPattern.java[m
+[1mrename to Basic/CharacterPattern.java[m
+[1mdiff --git a/CheckPrimeNumber.java b/Basic/CheckPrimeNumber.java[m
+[1msimilarity index 100%[m
+[1mrename from CheckPrimeNumber.java[m
+[1mrename to Basic/CheckPrimeNumber.java[m
+[1mdiff --git a/ContinueStatement.java b/Basic/ContinueStatement.java[m
+[1msimilarity index 100%[m
+[1mrename from ContinueStatement.java[m
+[1mrename to Basic/ContinueStatement.java[m
+[1mdiff --git a/DoWhileLoop.java b/Basic/DoWhileLoop.java[m
+[1msimilarity index 100%[m
+[1mrename from DoWhileLoop.java[m
+[1mrename to Basic/DoWhileLoop.java[m
+[1mdiff --git a/Factorial.java b/Basic/Factorial.java[m
+[1msimilarity index 100%[m
+[1mrename from Factorial.java[m
+[1mrename to Basic/Factorial.java[m
+[1mdiff --git a/FloydTrianglePattern.java b/Basic/FloydTrianglePattern.java[m
+[1msimilarity index 100%[m
+[1mrename from FloydTrianglePattern.java[m
+[1mrename to Basic/FloydTrianglePattern.java[m
+[1mdiff --git a/HalfPyramidPattern.java b/Basic/HalfPyramidPattern.java[m
+[1msimilarity index 100%[m
+[1mrename from HalfPyramidPattern.java[m
+[1mrename to Basic/HalfPyramidPattern.java[m
+[1mdiff --git a/Main.java b/Basic/Main.java[m
+[1msimilarity index 100%[m
+[1mrename from Main.java[m
+[1mrename to Basic/Main.java[m
+[1mdiff --git a/ReverseOfNumber.java b/Basic/ReverseOfNumber.java[m
+[1msimilarity index 100%[m
+[1mrename from ReverseOfNumber.java[m
+[1mrename to Basic/ReverseOfNumber.java[m
+[1mdiff --git a/ZeroOneTri.java b/Basic/ZeroOneTri.java[m
+[1msimilarity index 100%[m
+[1mrename from ZeroOneTri.java[m
+[1mrename to Basic/ZeroOneTri.java[m
+[1mdiff --git a/ad.java b/Basic/ad.java[m
+[1msimilarity index 100%[m
+[1mrename from ad.java[m
+[1mrename to Basic/ad.java[m
+[1mdiff --git a/breakStatement.java b/Basic/breakStatement.java[m
+[1msimilarity index 100%[m
+[1mrename from breakStatement.java[m
+[1mrename to Basic/breakStatement.java[m
+[1mdiff --git a/calculator.java b/Basic/calculator.java[m
+[1msimilarity index 100%[m
+[1mrename from calculator.java[m
+[1mrename to Basic/calculator.java[m
+[1mdiff --git a/elseifStatement.java b/Basic/elseifStatement.java[m
+[1msimilarity index 100%[m
+[1mrename from elseifStatement.java[m
+[1mrename to Basic/elseifStatement.java[m
+[1mdiff --git a/forLoop.java b/Basic/forLoop.java[m
+[1msimilarity index 100%[m
+[1mrename from forLoop.java[m
+[1mrename to Basic/forLoop.java[m
+[1mdiff --git a/ifElse.java b/Basic/ifElse.java[m
+[1msimilarity index 100%[m
+[1mrename from ifElse.java[m
+[1mrename to Basic/ifElse.java[m
+[1mdiff --git a/ifelseStatement.java b/Basic/ifelseStatement.java[m
+[1msimilarity index 100%[m
+[1mrename from ifelseStatement.java[m
+[1mrename to Basic/ifelseStatement.java[m
+[1mdiff --git a/incomeTaxCalc.java b/Basic/incomeTaxCalc.java[m
+[1msimilarity index 100%[m
+[1mrename from incomeTaxCalc.java[m
+[1mrename to Basic/incomeTaxCalc.java[m
+[1mdiff --git a/largestOf3num.java b/Basic/largestOf3num.java[m
+[1msimilarity index 100%[m
+[1mrename from largestOf3num.java[m
+[1mrename to Basic/largestOf3num.java[m
+[1mdiff --git a/loop.java b/Basic/loop.java[m
+[1msimilarity index 100%[m
+[1mrename from loop.java[m
+[1mrename to Basic/loop.java[m
+[1mdiff --git a/oddEven.java b/Basic/oddEven.java[m
+[1msimilarity index 100%[m
+[1mrename from oddEven.java[m
+[1mrename to Basic/oddEven.java[m
+[1mdiff --git a/pattern.java b/Basic/pattern.java[m
+[1msimilarity index 100%[m
+[1mrename from pattern.java[m
+[1mrename to Basic/pattern.java[m
+[1mdiff --git a/printNumber.java b/Basic/printNumber.java[m
+[1msimilarity index 100%[m
+[1mrename from printNumber.java[m
+[1mrename to Basic/printNumber.java[m
+[1mdiff --git a/sunOfnaturalNumbers.java b/Basic/sunOfnaturalNumbers.java[m
+[1msimilarity index 100%[m
+[1mrename from sunOfnaturalNumbers.java[m
+[1mrename to Basic/sunOfnaturalNumbers.java[m
+[1mdiff --git a/switchStatement.java b/Basic/switchStatement.java[m
+[1msimilarity index 100%[m
+[1mrename from switchStatement.java[m
+[1mrename to Basic/switchStatement.java[m
+[1mdiff --git a/task1.java b/Basic/task1.java[m
+[1msimilarity index 100%[m
+[1mrename from task1.java[m
+[1mrename to Basic/task1.java[m
+[1mdiff --git a/tempCodeRunnerFile.java b/Basic/tempCodeRunnerFile.java[m
+[1msimilarity index 100%[m
+[1mrename from tempCodeRunnerFile.java[m
+[1mrename to Basic/tempCodeRunnerFile.java[m
+[1mdiff --git a/ternaryOperator.java b/Basic/ternaryOperator.java[m
+[1msimilarity index 100%[m
+[1mrename from ternaryOperator.java[m
+[1mrename to Basic/ternaryOperator.java[m
+[1mdiff --git a/function/tempCodeRunnerFile.java b/function/tempCodeRunnerFile.java[m
+[1mdeleted file mode 100644[m
+[1mindex 2e65efe..0000000[m
+[1m--- a/function/tempCodeRunnerFile.java[m
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-a[m
+\ No newline at end of file[m
